@@ -1,0 +1,111 @@
+
+
+  .main_title {
+      text-align: center;
+  }
+  .main_title h1 {
+
+   font-size: 60px;
+    border-bottom: 1px solid grey;
+    background: lightgray;
+    margin-top: 16px;
+    border-left: 1px solid grey;
+}
+img {
+    width: 250px;
+    border: 10px double black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+       
+/* body {
+    background-image: url("199059.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-right: 200px;
+    background-attachment: scroll;
+ } */
+  
+ /*---------- SIDEBAR --------- */
+ 
+ .sidenav {
+     list-style-type: none;
+    height: 100%;;
+    padding-top: 1px;
+    background-color: white;
+    padding-bottom: 50%;
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+    
+ }
+
+  .sidenav li {
+    
+    text-align: left;
+    margin-bottom: 7px;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+
+  }
+
+  
+  .sidenav a:hover {
+    color: #ee1111;
+  }
+  
+  .sidenav .closebtn {
+    font-size: 36px;
+    margin-left: 50px;
+  }
+/*------end sidebar-------*/
+
+.content_body {
+    width:70%;
+    display: inline-block;
+    margin: 0;
+}
+
+.page-navigator {
+    list-style: none;
+    color: black;
+    border-bottom:grey;
+    padding-left: 0;
+}
+.page-navigator a {
+    text-decoration: none;
+    font-family: fantasy;
+    color: black;
+}
+.page-navigator li {
+    display: inline-block;
+    width: 49%;
+}
+
+.page-navigator :nth-child(2){
+    text-align: right;
+}
+.link {
+    list-style: none;
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 0;
+}
+.link li a{
+    list-style: none;
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
